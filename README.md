@@ -12,5 +12,5 @@ npm install -g testcafe
 
 ## Create & Running the tests
 ```
-$ testcafe "chrome:headless" scenario --reporter spec,html:ResultTest.html
+$ testcafe "chrome:headless" scenario/landing --reporter spec,html:ResultTest.html
 ```
