@@ -2,8 +2,6 @@
 
 All Page (Navigation, Section, Test Link Dll) with TestCafe
 
-## Getting Started
-
 ### Installing TestCafe
 
 The first step is to install testcafe in terminal with : 
