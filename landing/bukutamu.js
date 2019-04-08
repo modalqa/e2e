@@ -15,7 +15,7 @@ fixture `Halaman Hubungi Kami `
               .click(page.buttonHubingi)
               .expect(Selector('h2').textContent).contains('Hubungi Kami')
               .typeText(page.inputName, 'Faris')
-              .typeText(page.inputEmail, 'faris.ardi@modalrakyat.com')
+              .typeText(page.inputEmail, 'email@mail.com')
               .typeText(page.inputSubject, 'Test')
               .typeText(page.inputPertanyaan, 'ini data testing')
               
