@@ -19,7 +19,7 @@ fixture `Halaman Login`
         await t
             .maximizeWindow()
             //.setTestSpeed(0.1)
-            .typeText(page.inputEmail,'harryanto250@mailinator.com')
+            .typeText(page.inputEmail,'email@mail.com')
             .typeText(page.passwordInput,'morak123')
             .pressKey('enter')
             
@@ -34,7 +34,7 @@ fixture `Halaman Login`
         await t
             .maximizeWindow()
             //.setTestSpeed(0.1)
-            .typeText(page.inputEmail,'fariskur001@mailinator.com')
+            .typeText(page.inputEmail,'email@mail.com')
             .typeText(page.passwordInput,'</script1>')
             .pressKey('enter')
             
